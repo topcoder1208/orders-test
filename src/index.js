@@ -71,7 +71,8 @@ export default class OrdersAnalyzer {
         });
       }
     });
-    console.log(output)
+    
+    console.log(`Result for Product ID ${productId}\n`, output)
     return output;
   }
 }
