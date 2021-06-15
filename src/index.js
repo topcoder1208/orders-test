@@ -71,7 +71,7 @@ export default class OrdersAnalyzer {
         });
       }
     });
-
+    console.log(output)
     return output;
   }
 }
